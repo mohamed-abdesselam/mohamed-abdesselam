@@ -6,6 +6,7 @@ import Work from "../components/work/Work";
 import Qualification from "../components/qualification/Qualification";
 import Testimonials from "../components/testimonials/Testimonials";
 import Contact from "../components/contact/Contact";
+import { Suspense } from "react";
 
 export default function HomePage() {
   return (
@@ -14,7 +15,9 @@ export default function HomePage() {
       <About />
       <Skills />
       <Services />
-      <Work seeAll={false} />
+      <Suspense fallback={<div>Loading works...</div>}>
+        <Work seeAll={false} />
+      </Suspense>
       <Qualification />
       <Testimonials />
       <Contact />
