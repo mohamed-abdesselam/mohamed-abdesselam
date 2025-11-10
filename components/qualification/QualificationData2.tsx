@@ -1,0 +1,29 @@
+import React from "react";
+
+interface QualificationData2Props {
+    title: string;
+    subtitle: string;
+    calendar: string;
+}
+
+const QualificationData2 = (props: QualificationData2Props) => {
+    return (
+        <div className="qualification__data">
+            <div></div>
+            <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+            </div>
+            <div>
+                <h3 className="qualification__title">{props.title}</h3>
+                <span className="qualification__subtitle">{props.subtitle}</span>
+                <div className="qualification__calendar">
+                    <i className="uil uil-calendar-alt"></i>{props.calendar}
+                </div>
+            </div>
+        </div>
+    );
+}
+
+export default QualificationData2;
+
