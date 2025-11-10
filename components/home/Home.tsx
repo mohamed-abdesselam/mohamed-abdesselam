@@ -4,7 +4,7 @@ import Social from "./Social";
 import Data from "./Data";
 import Scroll from "./Scroll";
 
-const Home = () => {
+const Home = ({ isHome = true }: { isHome?: boolean }) => {
     return (
         <section className="home section" id="home">
             <div className="home__container container grid">
@@ -13,7 +13,7 @@ const Home = () => {
                     <div className="home__img"></div>
                     <Data />
                 </div>
-                <Scroll />
+                {isHome && <Scroll />}
             </div>
         </section>
     );

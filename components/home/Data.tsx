@@ -1,6 +1,6 @@
 import React from "react";
 
-const Data = () => {
+const Data = ({ isHome = true }: { isHome?: boolean }) => {
     return (
         <div className="home__data">
             <h1 className="home__title">
@@ -8,7 +8,7 @@ const Data = () => {
             </h1>
             <h3 className="home__subtitle">Web Developer</h3>
             <p className="home__description">I'm creative designer then developer it, and I'm very passionate and dedicated to my work.</p>
-            <a href="#contact" className="button button--flex">
+            <a href={isHome ? "#contact" : "/#contact"} className="button button--flex">
                 Say hello
                 <svg
                     className="button__icon"
