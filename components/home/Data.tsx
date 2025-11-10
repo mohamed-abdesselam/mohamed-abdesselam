@@ -7,7 +7,7 @@ const Data = ({ isHome = true }: { isHome?: boolean }) => {
                 Abdesselam Mohamed
             </h1>
             <h3 className="home__subtitle">Web Developer</h3>
-            <p className="home__description">I'm creative designer then developer it, and I'm very passionate and dedicated to my work.</p>
+            <p className="home__description">I'm a creative designer and developer, and I'm very passionate and dedicated to my work.</p>
             <a href={isHome ? "#contact" : "/#contact"} className="button button--flex">
                 Say hello
                 <svg
