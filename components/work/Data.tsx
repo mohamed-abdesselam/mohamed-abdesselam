@@ -69,6 +69,55 @@ export const projectsData: ProjectDetail[] = [
         ],
         downloadLink: "/projects/iphone17-blender/iphone.blend"
     },
+    {
+        id: 2,
+        image: "/projects/al anis/al-anis-0.png",
+        title: "Al Anis Bottle 3D Model",
+        link: "al-anis",
+        category: "design",
+        description: "A detailed 3D model of the Al Anis bottle created in Blender. This project features a realistic bottle design with inner and outer bottle components, cap, and professional product visualization. The model showcases advanced 3D modeling techniques and realistic material rendering.",
+        technologies: ["Blender", "Cycles Render", "3D Modeling"],
+        sections: [
+            {
+                title: "Project Highlights",
+                type: "list",
+                content: [
+                    "Detailed 3D bottle model with inner and outer components",
+                    "Realistic cap design with proper proportions",
+                    "Professional product visualization",
+                    "High-quality material shaders and textures",
+                    "Multiple render angles showcasing the product",
+                    "Optimized for product presentation and marketing"
+                ]
+            },
+            {
+                title: "About the Model",
+                type: "text",
+                content: "The Al Anis bottle 3D model was carefully crafted in Blender, focusing on accurate proportions and realistic materials. The project includes separate components for the inner bottle, outer bottle, and cap, allowing for flexible rendering and animation. The model is designed for professional product visualization and marketing purposes."
+            },
+            {
+                title: "Technical Details",
+                type: "list",
+                content: [
+                    "Blender 3.6+ compatible",
+                    "Cycles rendering engine optimized",
+                    "Separate components (inner bottle, outer bottle, cap)",
+                    "Realistic glass and material shaders",
+                    "High-resolution textures",
+                    "Multiple camera angles for product shots"
+                ]
+            }
+        ],
+        additionalImages: [
+            "/projects/al anis/al-anis-0.png",
+            "/projects/al anis/al-anis-1.png",
+            "/projects/al anis/al-anis-2.png",
+            "/projects/al anis/cap.png",
+            "/projects/al anis/inner bottle.png",
+            "/projects/al anis/outer bottle.png"
+        ],
+        downloadLink: "/projects/al anis/ri7a.blend"
+    },
     // {
     //     id: 2,
     //     image: "/assets/work2.jpg",

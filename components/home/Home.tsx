@@ -11,7 +11,7 @@ const Home = ({ isHome = true }: { isHome?: boolean }) => {
                 <div className="home__content grid">
                     <Social />
                     <div className="home__img"></div>
-                    <Data />
+                    <Data isHome={isHome} />
                 </div>
                 {isHome && <Scroll />}
             </div>
